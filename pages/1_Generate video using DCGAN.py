@@ -84,7 +84,7 @@ with st.container():
         with st.expander("Advanced options"):    
             custom_customized_label = st.text_input("Enter the activity", help="Name of the action like PlayingTabla or Football", placeholder="Enter the exact action class")
             show_images = st.checkbox("Show images")
-        submit_button = st.form_submit_button(label='Classify')
+        submit_button = st.form_submit_button(label='Generate Video')
         if submit_button:
             if len(custom_customized_label) > 0:
                 generate_video(custom_customized_label, show_images)

@@ -410,11 +410,23 @@ actions = {
     "d_model_file" : "saved_model/Archery_d_model.h5",
     "g_model_file" : "saved_model/Archery_g_model.h5"
   },
-# "Basketball": "Mustang",
+"Basketball": {
+    "d_model_file" : "saved_model/Basketball_d_model.h5",
+    "g_model_file" : "saved_model/Basketball_g_model.h5"  
+  },
 # "Biking": 1964,
-# "CricketShot": 
-# "HorseRace":
-# "IceDancing" : 
+"CricketShot": {
+    "d_model_file" : "saved_model/CricketShot_d_model.h5",
+    "g_model_file" : "saved_model/CricketShot_g_model.h5"
+  }, 
+"HorseRace": {
+    "d_model_file" : "saved_model/HorseRace_d_model.h5",
+    "g_model_file" : "saved_model/HorseRace_g_model.h5" 
+  },
+"IceDancing" : {
+    "d_model_file" : "saved_model/IceDancing_d_model.h5",
+    "g_model_file" : "saved_model/IceDancing_g_model.h5" 
+  },
 # "Kayaking" :
 # "LongJump": 
 # "MilitaryParade":
