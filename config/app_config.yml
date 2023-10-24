@@ -1,0 +1,20 @@
+folders:
+    content: pages/scripts/content
+    pkl: pkl
+file_names:
+    lgb_pkl: best_lgb_classifier.pkl
+    rf_pkl: best_rf_classifier.pkl
+    xgb_pkl: best_xgb_classifier.pkl
+debug: 
+    error: True        
+    info: True
+    debug: False
+    config: False
+    
+
+#other:
+#   preprocessing_queue:
+#       - preprocessing.scale_and_center
+#        - preprocessing.dot_reduction
+#        - preprocessing.connect_lines
+#    use_anonymous: yes
